@@ -52,10 +52,12 @@ export default function Layout({ children }) {
           href="https://fonts.googleapis.com/css2?family=Bowlby+One+SC&display=swap"
         />
         <noscript>
-          <link
-            rel="stylesheet"
-            href="https://fonts.googleapis.com/css2?family=Bowlby+One+SC&display=swap"
-          />
+          {`
+            <link
+              rel="stylesheet"
+              href="https://fonts.googleapis.com/css2?family=Bowlby+One+SC&display=swap"
+            />
+          `}
         </noscript>
       </Helmet>
       <main

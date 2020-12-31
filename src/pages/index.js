@@ -27,9 +27,8 @@ const IndexPage = () => {
         <i>Answering the universe&#39;s oldest question...JavaScript style.</i>
       </div>
       <div className="max-w-full flex justify-center items-center my-4 p-4 text-3xl">
-        <Input value={leftInput} setValue={setLeftInput} />
-        <span className="px-4">vs</span>
-        <Input value={rightInput} setValue={setRightInput} />
+        <Input label="Item A:" value={leftInput} setValue={setLeftInput} />
+        <Input label="Item B:" value={rightInput} setValue={setRightInput} />
       </div>
       <div className="my-4 text-center text-3xl">
         {getResultText(leftInput, rightInput)}
