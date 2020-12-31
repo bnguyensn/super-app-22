@@ -89,7 +89,7 @@ export default function Layout({ children }) {
           Made with 💖 by{' '}
           <ExtLink href="https://twitter.com/bnguyensn">@bnguyensn</ExtLink>{' '}
           using <ExtLink href="https://www.gatsbyjs.com">Gatsby</ExtLink>.{' '}
-          <ExtLink href="https://github.com/bnguyensn/super-app-20">
+          <ExtLink href="https://github.com/bnguyensn/super-app-22">
             Source code
           </ExtLink>
           .
