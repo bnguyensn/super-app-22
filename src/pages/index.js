@@ -23,17 +23,17 @@ const IndexPage = () => {
   return (
     <Layout>
       <h1 className="my-2 text-center text-4xl font-display">STRING VERSUS</h1>
-      <h3 className="my-2 text-center text-xl">
+      <div className="my-2 text-center text-xl">
         <i>Answering the universe&#39;s oldest question...JavaScript style.</i>
-      </h3>
+      </div>
       <div className="max-w-full flex justify-center items-center my-4 p-4 text-3xl">
         <Input value={leftInput} setValue={setLeftInput} />
         <span className="px-4">vs</span>
         <Input value={rightInput} setValue={setRightInput} />
       </div>
-      <h2 className="my-4 text-center text-3xl">
+      <div className="my-4 text-center text-3xl">
         {getResultText(leftInput, rightInput)}
-      </h2>
+      </div>
     </Layout>
   );
 };

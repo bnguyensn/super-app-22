@@ -12,7 +12,11 @@ export default function Layout({ children }) {
 
   return (
     <div>
-      <Helmet>
+      <Helmet
+        htmlAttributes={{
+          lang: 'en',
+        }}
+      >
         <title>String Versus</title>
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
         <meta
@@ -42,9 +46,17 @@ export default function Layout({ children }) {
         <link rel="shortcut icon" href="images/favicon.ico" />
         <link rel="preconnect" href="https://fonts.gstatic.com" />
         <link
+          rel="preload"
+          as="style"
+          onLoad="this.onload=null;this.rel='stylesheet'"
           href="https://fonts.googleapis.com/css2?family=Bowlby+One+SC&display=swap"
-          rel="stylesheet"
         />
+        <noscript>
+          <link
+            rel="stylesheet"
+            href="https://fonts.googleapis.com/css2?family=Bowlby+One+SC&display=swap"
+          />
+        </noscript>
       </Helmet>
       <main
         style={{
