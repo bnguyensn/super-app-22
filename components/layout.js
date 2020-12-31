@@ -47,16 +47,31 @@ export default function Layout({ children }) {
         />
       </Helmet>
       <main
-        className="min-h-screen p-2"
         style={{
+          minHeight: '100vh',
+          padding: '0.5rem',
           backgroundColor: bkgColor,
         }}
         onClick={handleBkgClick}
       >
         {children}
       </main>
-      <footer className="p-4 flex flex-col justify-center items-center bg-gray-900 text-white">
-        <p className="text-center">
+      <footer
+        style={{
+          padding: '1rem',
+          display: 'flex',
+          flexDirection: 'column',
+          justifyContent: 'center',
+          alignItems: 'center',
+          backgroundColor: 'rgba(17,24,39,1)',
+          color: '#ffffff',
+        }}
+      >
+        <p
+          style={{
+            textAlign: 'center',
+          }}
+        >
           Made with 💖 by{' '}
           <ExtLink href="https://twitter.com/bnguyensn">@bnguyensn</ExtLink>{' '}
           using <ExtLink href="https://www.gatsbyjs.com">Gatsby</ExtLink>.{' '}
