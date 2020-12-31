@@ -1,11 +1,11 @@
 {
   "name": "super-app-22",
   "version": "1.0.0",
-  "private": true,
-  "description": "super-app-22",
-  "author": "Binh Nguyen",
+  "private": false,
+  "description": "Answering the universe's oldest question...JavaScript style",
+  "author": "@bnguyensn",
   "keywords": [
-    "gatsby"
+    "string versus"
   ],
   "scripts": {
     "dev": "gatsby develop",
@@ -14,7 +14,7 @@
     "serve": "gatsby serve",
     "clean": "gatsby clean"
   },
-  "license": "0BSD",
+  "license": "MIT",
   "dependencies": {
     "autoprefixer": "^10.1.0",
     "gatsby": "^2.26.1",
