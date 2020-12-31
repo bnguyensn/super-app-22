@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: 'super-app-22',
+    title: 'String Versus',
   },
   plugins: [
     'gatsby-plugin-sharp',
