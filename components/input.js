@@ -17,7 +17,12 @@ export default function Input({ value, setValue }) {
     <input
       ref={inputEl}
       type="text"
-      className="w-20 p-2 text-center rounded"
+      style={{
+        width: '5rem',
+        padding: '0.5rem',
+        textAlign: 'center',
+        borderRadius: '0.25rem',
+      }}
       value={value}
       onChange={handleChange}
       onClick={handleClick}
