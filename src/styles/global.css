@@ -1,0 +1,30 @@
+@tailwind base;
+
+@tailwind components;
+
+html,
+body {
+  @apply bg-gray-50;
+}
+
+.btn-main {
+  @apply px-4 py-2 text-white bg-blue-500 rounded;
+}
+
+.link {
+  @apply text-blue-500
+}
+
+.link:hover {
+  @apply text-blue-400
+}
+
+.link:focus {
+  @apply text-blue-600
+}
+
+.paragraph {
+  @apply max-w-md w-full px-2 py-2
+}
+
+@tailwind utilities;
